@@ -1,6 +1,6 @@
 {
   "name": "marionetta",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A lightweight library to control Chrome over the DevTools Protocol — your own browser automation toolkit.",
   "type": "module",
   "main": "src/index.js",
@@ -32,6 +32,14 @@
   ],
   "author": "Anshika",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anshika2203/marionetta.git"
+  },
+  "homepage": "https://github.com/Anshika2203/marionetta#readme",
+  "bugs": {
+    "url": "https://github.com/Anshika2203/marionetta/issues"
+  },
   "dependencies": {
     "ws": "^8.18.0"
   }
