@@ -1,5 +1,7 @@
 # Marionetta
 
+[![CI](https://github.com/Anshika2203/marionetta/actions/workflows/ci.yml/badge.svg)](https://github.com/Anshika2203/marionetta/actions/workflows/ci.yml)
+
 A lightweight library to control Chrome from Node.js — your own browser
 automation toolkit. Launch Chrome, open pages, click, type, evaluate JavaScript,
 take screenshots, and render PDFs, all by talking to Chrome over the
