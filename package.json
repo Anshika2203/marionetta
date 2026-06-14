@@ -1,6 +1,6 @@
 {
   "name": "marionetta",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A lightweight library to control Chrome over the DevTools Protocol — your own browser automation toolkit.",
   "type": "module",
   "main": "src/index.js",
