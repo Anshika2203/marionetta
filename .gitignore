@@ -1,0 +1,8 @@
+node_modules/
+*.log
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.pdf
+.DS_Store

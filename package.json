@@ -1,0 +1,38 @@
+{
+  "name": "marionetta",
+  "version": "0.1.1",
+  "description": "A lightweight library to control Chrome over the DevTools Protocol — your own browser automation toolkit.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "src",
+    "types"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "example": "node examples/screenshot.js",
+    "scrape": "node examples/scrape.js"
+  },
+  "keywords": [
+    "chrome",
+    "chromium",
+    "automation",
+    "headless",
+    "devtools-protocol",
+    "cdp",
+    "scraping",
+    "screenshot",
+    "pdf",
+    "puppeteer"
+  ],
+  "author": "Anshika",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
