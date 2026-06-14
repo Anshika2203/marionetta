@@ -19,7 +19,10 @@ describe('Page', () => {
   let page;
 
   before(async () => {
-    browser = await launch();
+    // CI runners need the sandbox disabled to start Chrome.
+    browser = await launch({
+      args: process.env.CI ? ['--no-sandbox', '--disable-setuid-sandbox'] : [],
+    });
     page = await browser.newPage();
   });
 
